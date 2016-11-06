@@ -1,0 +1,6 @@
+framework module Pods_AnonymouslyAuthenticate {
+  umbrella header "Pods-AnonymouslyAuthenticate-umbrella.h"
+
+  export *
+  module * { export * }
+}
