@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21CD05531DCE3A8600559FE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CD05521DCE3A8600559FE0 /* AppDelegate.swift */; };
+		21CD05551DCE3A8600559FE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CD05541DCE3A8600559FE0 /* ViewController.swift */; };
+		21CD05581DCE3A8600559FE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21CD05561DCE3A8600559FE0 /* Main.storyboard */; };
+		21CD055A1DCE3A8600559FE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21CD05591DCE3A8600559FE0 /* Assets.xcassets */; };
+		21CD055D1DCE3A8600559FE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21CD055B1DCE3A8600559FE0 /* LaunchScreen.storyboard */; };
+		21CD05681DCE3A8600559FE0 /* FirebaseDenemesiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CD05671DCE3A8600559FE0 /* FirebaseDenemesiTests.swift */; };
+		21CD05731DCE3A8700559FE0 /* FirebaseDenemesiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CD05721DCE3A8700559FE0 /* FirebaseDenemesiUITests.swift */; };
+		21CD05811DCE3AA200559FE0 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 21CD05801DCE3AA200559FE0 /* Podfile */; };
+		21CD05831DCE3AE200559FE0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21CD05821DCE3AE200559FE0 /* GoogleService-Info.plist */; };
+		C75209614ECE7965DDFA725A /* Pods_FirebaseDenemesi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8E20C745931E39D8F5A804 /* Pods_FirebaseDenemesi.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21CD05641DCE3A8600559FE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21CD05471DCE3A8600559FE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21CD054E1DCE3A8600559FE0;
+			remoteInfo = FirebaseDenemesi;
+		};
+		21CD056F1DCE3A8700559FE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21CD05471DCE3A8600559FE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21CD054E1DCE3A8600559FE0;
+			remoteInfo = FirebaseDenemesi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21CD054F1DCE3A8600559FE0 /* AnonymouslyAuthenticate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnonymouslyAuthenticate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21CD05521DCE3A8600559FE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21CD05541DCE3A8600559FE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21CD05571DCE3A8600559FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21CD05591DCE3A8600559FE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21CD055C1DCE3A8600559FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21CD055E1DCE3A8600559FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21CD05631DCE3A8600559FE0 /* AnonymouslyAuthenticateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnonymouslyAuthenticateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21CD05671DCE3A8600559FE0 /* FirebaseDenemesiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseDenemesiTests.swift; sourceTree = "<group>"; };
+		21CD05691DCE3A8600559FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21CD056E1DCE3A8700559FE0 /* AnonymouslyAuthenticateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnonymouslyAuthenticateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21CD05721DCE3A8700559FE0 /* FirebaseDenemesiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseDenemesiUITests.swift; sourceTree = "<group>"; };
+		21CD05741DCE3A8700559FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21CD05801DCE3AA200559FE0 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		21CD05821DCE3AE200559FE0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		21CD05841DCE465700559FE0 /* FirebaseDenemesi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FirebaseDenemesi-Bridging-Header.h"; sourceTree = "<group>"; };
+		8F8E20C745931E39D8F5A804 /* Pods_FirebaseDenemesi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseDenemesi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A845435F72E65BF7C9D6365 /* Pods-FirebaseDenemesi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseDenemesi.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseDenemesi/Pods-FirebaseDenemesi.release.xcconfig"; sourceTree = "<group>"; };
+		EF3AB9530E541725FF62BFDA /* Pods-FirebaseDenemesi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseDenemesi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseDenemesi/Pods-FirebaseDenemesi.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21CD054C1DCE3A8600559FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75209614ECE7965DDFA725A /* Pods_FirebaseDenemesi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21CD05601DCE3A8600559FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21CD056B1DCE3A8700559FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21CD05461DCE3A8600559FE0 = {
+			isa = PBXGroup;
+			children = (
+				21CD05801DCE3AA200559FE0 /* Podfile */,
+				21CD05511DCE3A8600559FE0 /* FirebaseDenemesi */,
+				21CD05661DCE3A8600559FE0 /* FirebaseDenemesiTests */,
+				21CD05711DCE3A8700559FE0 /* FirebaseDenemesiUITests */,
+				21CD05501DCE3A8600559FE0 /* Products */,
+				A242C689FB0CD95519A55A39 /* Pods */,
+				7937DA0EC74B4E9BE3F922E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		21CD05501DCE3A8600559FE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21CD054F1DCE3A8600559FE0 /* AnonymouslyAuthenticate.app */,
+				21CD05631DCE3A8600559FE0 /* AnonymouslyAuthenticateTests.xctest */,
+				21CD056E1DCE3A8700559FE0 /* AnonymouslyAuthenticateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21CD05511DCE3A8600559FE0 /* FirebaseDenemesi */ = {
+			isa = PBXGroup;
+			children = (
+				21CD05521DCE3A8600559FE0 /* AppDelegate.swift */,
+				21CD05541DCE3A8600559FE0 /* ViewController.swift */,
+				21CD05841DCE465700559FE0 /* FirebaseDenemesi-Bridging-Header.h */,
+				21CD05561DCE3A8600559FE0 /* Main.storyboard */,
+				21CD05591DCE3A8600559FE0 /* Assets.xcassets */,
+				21CD055B1DCE3A8600559FE0 /* LaunchScreen.storyboard */,
+				21CD055E1DCE3A8600559FE0 /* Info.plist */,
+				21CD05821DCE3AE200559FE0 /* GoogleService-Info.plist */,
+			);
+			path = FirebaseDenemesi;
+			sourceTree = "<group>";
+		};
+		21CD05661DCE3A8600559FE0 /* FirebaseDenemesiTests */ = {
+			isa = PBXGroup;
+			children = (
+				21CD05671DCE3A8600559FE0 /* FirebaseDenemesiTests.swift */,
+				21CD05691DCE3A8600559FE0 /* Info.plist */,
+			);
+			path = FirebaseDenemesiTests;
+			sourceTree = "<group>";
+		};
+		21CD05711DCE3A8700559FE0 /* FirebaseDenemesiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21CD05721DCE3A8700559FE0 /* FirebaseDenemesiUITests.swift */,
+				21CD05741DCE3A8700559FE0 /* Info.plist */,
+			);
+			path = FirebaseDenemesiUITests;
+			sourceTree = "<group>";
+		};
+		7937DA0EC74B4E9BE3F922E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F8E20C745931E39D8F5A804 /* Pods_FirebaseDenemesi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A242C689FB0CD95519A55A39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF3AB9530E541725FF62BFDA /* Pods-FirebaseDenemesi.debug.xcconfig */,
+				9A845435F72E65BF7C9D6365 /* Pods-FirebaseDenemesi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21CD054E1DCE3A8600559FE0 /* AnonymouslyAuthenticate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21CD05771DCE3A8700559FE0 /* Build configuration list for PBXNativeTarget "AnonymouslyAuthenticate" */;
+			buildPhases = (
+				215793288D4D7EE3B8C19D61 /* [CP] Check Pods Manifest.lock */,
+				21CD054B1DCE3A8600559FE0 /* Sources */,
+				21CD054C1DCE3A8600559FE0 /* Frameworks */,
+				21CD054D1DCE3A8600559FE0 /* Resources */,
+				9B6EE93A9AFCA1CCDF5DD7FD /* [CP] Embed Pods Frameworks */,
+				E59494427EF54EC8CA303861 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnonymouslyAuthenticate;
+			productName = FirebaseDenemesi;
+			productReference = 21CD054F1DCE3A8600559FE0 /* AnonymouslyAuthenticate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21CD05621DCE3A8600559FE0 /* AnonymouslyAuthenticateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21CD057A1DCE3A8700559FE0 /* Build configuration list for PBXNativeTarget "AnonymouslyAuthenticateTests" */;
+			buildPhases = (
+				21CD055F1DCE3A8600559FE0 /* Sources */,
+				21CD05601DCE3A8600559FE0 /* Frameworks */,
+				21CD05611DCE3A8600559FE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21CD05651DCE3A8600559FE0 /* PBXTargetDependency */,
+			);
+			name = AnonymouslyAuthenticateTests;
+			productName = FirebaseDenemesiTests;
+			productReference = 21CD05631DCE3A8600559FE0 /* AnonymouslyAuthenticateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21CD056D1DCE3A8700559FE0 /* AnonymouslyAuthenticateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21CD057D1DCE3A8700559FE0 /* Build configuration list for PBXNativeTarget "AnonymouslyAuthenticateUITests" */;
+			buildPhases = (
+				21CD056A1DCE3A8700559FE0 /* Sources */,
+				21CD056B1DCE3A8700559FE0 /* Frameworks */,
+				21CD056C1DCE3A8700559FE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21CD05701DCE3A8700559FE0 /* PBXTargetDependency */,
+			);
+			name = AnonymouslyAuthenticateUITests;
+			productName = FirebaseDenemesiUITests;
+			productReference = 21CD056E1DCE3A8700559FE0 /* AnonymouslyAuthenticateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21CD05471DCE3A8600559FE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Arda SENTURK";
+				TargetAttributes = {
+					21CD054E1DCE3A8600559FE0 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 5JMD3VSD7N;
+						ProvisioningStyle = Automatic;
+					};
+					21CD05621DCE3A8600559FE0 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 21CD054E1DCE3A8600559FE0;
+					};
+					21CD056D1DCE3A8700559FE0 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 21CD054E1DCE3A8600559FE0;
+					};
+				};
+			};
+			buildConfigurationList = 21CD054A1DCE3A8600559FE0 /* Build configuration list for PBXProject "AnonymouslyAuthenticate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21CD05461DCE3A8600559FE0;
+			productRefGroup = 21CD05501DCE3A8600559FE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21CD054E1DCE3A8600559FE0 /* AnonymouslyAuthenticate */,
+				21CD05621DCE3A8600559FE0 /* AnonymouslyAuthenticateTests */,
+				21CD056D1DCE3A8700559FE0 /* AnonymouslyAuthenticateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21CD054D1DCE3A8600559FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21CD055D1DCE3A8600559FE0 /* LaunchScreen.storyboard in Resources */,
+				21CD055A1DCE3A8600559FE0 /* Assets.xcassets in Resources */,
+				21CD05831DCE3AE200559FE0 /* GoogleService-Info.plist in Resources */,
+				21CD05811DCE3AA200559FE0 /* Podfile in Resources */,
+				21CD05581DCE3A8600559FE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21CD05611DCE3A8600559FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21CD056C1DCE3A8700559FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		215793288D4D7EE3B8C19D61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B6EE93A9AFCA1CCDF5DD7FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseDenemesi/Pods-FirebaseDenemesi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E59494427EF54EC8CA303861 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseDenemesi/Pods-FirebaseDenemesi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21CD054B1DCE3A8600559FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21CD05551DCE3A8600559FE0 /* ViewController.swift in Sources */,
+				21CD05531DCE3A8600559FE0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21CD055F1DCE3A8600559FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21CD05681DCE3A8600559FE0 /* FirebaseDenemesiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21CD056A1DCE3A8700559FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21CD05731DCE3A8700559FE0 /* FirebaseDenemesiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21CD05651DCE3A8600559FE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21CD054E1DCE3A8600559FE0 /* AnonymouslyAuthenticate */;
+			targetProxy = 21CD05641DCE3A8600559FE0 /* PBXContainerItemProxy */;
+		};
+		21CD05701DCE3A8700559FE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21CD054E1DCE3A8600559FE0 /* AnonymouslyAuthenticate */;
+			targetProxy = 21CD056F1DCE3A8700559FE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21CD05561DCE3A8600559FE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21CD05571DCE3A8600559FE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21CD055B1DCE3A8600559FE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21CD055C1DCE3A8600559FE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21CD05751DCE3A8700559FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21CD05761DCE3A8700559FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21CD05781DCE3A8700559FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF3AB9530E541725FF62BFDA /* Pods-FirebaseDenemesi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5JMD3VSD7N;
+				INFOPLIST_FILE = FirebaseDenemesi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ardasnturk.AnonymouslyAuthenticate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		21CD05791DCE3A8700559FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A845435F72E65BF7C9D6365 /* Pods-FirebaseDenemesi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5JMD3VSD7N;
+				INFOPLIST_FILE = FirebaseDenemesi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ardasnturk.AnonymouslyAuthenticate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		21CD057B1DCE3A8700559FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FirebaseDenemesiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ardasnturk.FirebaseDenemesiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnonymouslyAuthenticate.app/AnonymouslyAuthenticate";
+			};
+			name = Debug;
+		};
+		21CD057C1DCE3A8700559FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FirebaseDenemesiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ardasnturk.FirebaseDenemesiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnonymouslyAuthenticate.app/AnonymouslyAuthenticate";
+			};
+			name = Release;
+		};
+		21CD057E1DCE3A8700559FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FirebaseDenemesiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ardasnturk.FirebaseDenemesiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FirebaseDenemesi;
+			};
+			name = Debug;
+		};
+		21CD057F1DCE3A8700559FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FirebaseDenemesiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ardasnturk.FirebaseDenemesiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FirebaseDenemesi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21CD054A1DCE3A8600559FE0 /* Build configuration list for PBXProject "AnonymouslyAuthenticate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21CD05751DCE3A8700559FE0 /* Debug */,
+				21CD05761DCE3A8700559FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21CD05771DCE3A8700559FE0 /* Build configuration list for PBXNativeTarget "AnonymouslyAuthenticate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21CD05781DCE3A8700559FE0 /* Debug */,
+				21CD05791DCE3A8700559FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21CD057A1DCE3A8700559FE0 /* Build configuration list for PBXNativeTarget "AnonymouslyAuthenticateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21CD057B1DCE3A8700559FE0 /* Debug */,
+				21CD057C1DCE3A8700559FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21CD057D1DCE3A8700559FE0 /* Build configuration list for PBXNativeTarget "AnonymouslyAuthenticateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21CD057E1DCE3A8700559FE0 /* Debug */,
+				21CD057F1DCE3A8700559FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21CD05471DCE3A8600559FE0 /* Project object */;
+}
